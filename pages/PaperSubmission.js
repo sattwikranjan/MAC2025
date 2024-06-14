@@ -56,11 +56,11 @@ const guideline = () => {
                   </p>
                   <a
                     className="text-rose-500 cursor-pointer inline-block md:text-lg"
-                    href="https://cmt3.research.microsoft.com/MAC2024/"
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    https://cmt3.research.microsoft.com/MAC2024/
+                    Will be updated soon 
                   </a>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-12   ">
