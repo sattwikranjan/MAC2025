@@ -61,8 +61,8 @@ const Footer = () => {
         <h2 className="text-left title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded ">Contact Information</h2>
         {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
         <nav className="list-none mb-10 mt-3">
-          <li className="text-gray-600 hover:text-gray-800 cursor-pointer "><b>EMAIL:</b> ieeemac2024@gmail.com</li>
-            <li className="text-gray-600 hover:text-gray-800 "><b>PHONE:</b> +91 9718467449</li>
+          <li className="text-gray-600 hover:text-gray-800 cursor-pointer "><b>EMAIL:</b> ieeemacmanit2025@gmail.com</li>
+            <li className="text-gray-600 hover:text-gray-800 "><b>PHONE:</b> +91 7800601025</li>
             {/*<li className="text-gray-600 hover:text-gray-800">Organizing Secretary, MAC2024</li>
             <li className="text-gray-600 hover:text-gray-800">ECED, MNNIT Allahabad</li>
             <li className="text-gray-600 hover:text-gray-800">Prayagraj-211004, UP, India</li>

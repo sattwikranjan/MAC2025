@@ -1,7 +1,7 @@
 export const cheifpatrons = [
   {  
     title: "Dr.",
-    fullName: "K K Shukla",
+    fullName: "K. K. Shukla",
     organisation: "Director,  MANIT BHOPAL ",
     profileImage: "/bkdas.png",
   },
@@ -10,7 +10,7 @@ export const cheifpatrons = [
 export const patrons = [
   { 
     title: "Dr.",
-    fullName: "Dr. K K Shukla",
+    fullName: "Dr. K. K. Shukla",
     organisation: "Director, MANIT BHOPAL ",
     profileImage: "/kksingh.jpg",
   },
@@ -59,13 +59,13 @@ export const genChairs = [
   
   {
     title: "Dr.",
-    fullName: "Dr. V S Tripathi ",
+    fullName: "Dr. V. S. Tripathi ",
     organisation: "MNNIT Allahabad, India",
     profileImage: "/vstripathi.jpg",
   },
   {
     title: "DR.",
-    fullName: "Dr R N Yadav",
+    fullName: "Dr. R. N.  Yadav",
     organisation: "MANIT Bhopal, India",
     profileImage: "/rnyadav.jpg",
   },
@@ -224,7 +224,7 @@ export const PublicityCoChair = [
   },
   {
     title: "Mr.",
-    fullName: "D P Tripathi",
+    fullName: "D. P. Tripathi",
     organisation: "Scientist E",
     profileImage: "/sonali.png",
   },
@@ -313,31 +313,31 @@ export const FinChairs = [
 export const OrgChair = [
   {
     title: "Prof.",
-    fullName: "N P Pathak",
+    fullName: "N. P. Pathak",
     organisation: "IIT Roorkee, India",
     profileImage: "/nppathak.png",
   },
 ];
 
 export const PublicChairs = [
-  {
-    title: "Dr.",
-    fullName: "Dr. Rajan Mishra",
-    organisation: "MMMUT GORAKHPUR",
-    profileImage: "",
-  },
+ 
   {
     title: "Dr.",
   fullName: "Dr. Shashwat Pathak ",
   organisation: "CEO, AIC GNITS Foundation",
   profileImage: "",
 },
-{
-  title: "Dr.",
-fullName: "Dr. Shivesh Tripathi ",
-organisation: "",
-profileImage: "",
-},
+
+];
+
+export const PublicatChairs = [
+  {
+    title: "Dr.",
+    fullName: "Dr. Rajan Mishra",
+    organisation: "MMMUT GORAKHPUR",
+    profileImage: "",
+  },
+  
 
 ];
 
@@ -498,7 +498,7 @@ export const committeeMembers = [
         organisation: "Synergy Microwave, NJ, USA",
       },
       {
-        fullName: "Dr. D.C Pande",
+        fullName: "Dr. D.C. Pande",
         organisation: "LRDE, DRDO , India",
       },
       {
@@ -1106,6 +1106,22 @@ export const committeeMembers = [
     title: "Student Co-ordinator",
     name: "studentCoodinator",
     data: [
+{
+  fullName: "Mr. Suneel Kureel",
+  organisation: "MANIT Bhopal, India",
+},
+{
+  fullName: "Mr. Vivek Kumar",
+  organisation: "MANIT Bhopal, India",
+},
+{
+  fullName: "Mr. Shambhu",
+  organisation: "MANIT Bhopal, India",
+},
+{
+  fullName: "Mr. Abhay Pratap",
+  organisation: "MANIT Bhopal, India",
+},
       {
         fullName: "Mr. Piyush Kumar Mishra",
         organisation: "MNNIT Allahabad, India",

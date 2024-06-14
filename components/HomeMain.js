@@ -66,7 +66,7 @@ const HomeMain = () => {
                     </Link>
                     <span className="text-sm lg:text-lg text-white">
                       {" "}
-                      June 25-27, 2025
+                      June 27-29, 2025
                     </span>
                   </p>
                 </div>
@@ -90,7 +90,7 @@ const HomeMain = () => {
           </div>
           <div className="top-[10%] md:top-[10%] lg:top-[20%] xl:top-[5%] py-8 px-4 w-[90%] md:w-[30%] lg:w-[30%] flex flex-col justify-center items-center text-white rounded-2xl z-10 ">
             <a
-              href="/CFP_MAC2024.pdf"
+              href="/mac_2025.pdf"
               download={true}
               className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
             >
@@ -98,7 +98,7 @@ const HomeMain = () => {
             </a>
 
             <a
-              href="https://cmt3.research.microsoft.com/MAC2024/"
+              href="#"
               className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
             >
               Submit Papers
@@ -209,11 +209,11 @@ const HomeMain = () => {
               </p>
               <a
                 className="text-rose-500 cursor-pointer inline-block md:text-lg"
-                href="https://cmt3.research.microsoft.com/MAC2024/"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://cmt3.research.microsoft.com/MAC2024/
+                Will be updated soon.
               </a>
             </div>
           </div>
