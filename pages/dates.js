@@ -13,7 +13,7 @@ const Dates = () => {
         <div class="flex flex-col w-full items-center justify-center">
           <div class="w-full text-sm md:text-lg mb-4 mt-8 flex flex-col items-center font-bold italic">
             <p class="md:mb-8 w-2/3 leading-relaxed font-semibold text-lg self-center text-left mt-4">
-              Papers are accepted in multiple stages.
+              
             </p>
 
             <table class="text-[12px] md:text-lg lg:text-lg w-2/3">
