@@ -205,13 +205,13 @@ const Sponsor = () => {
           </div>
         </div>
       </div>
-      <div className="mt-8 p-2 mx-2 md:mx-8">
+      {/* <div className="mt-8 p-2 mx-2 md:mx-8">
         <h1 className="font-extrabold text-4xl md:text-5xl text-center">
-          <span className=" border-b-4 border-orange-500 px-0 md:px-8 pb-2 ">
+          <span className=" border-b-4 border-orange-500 px-0 md:px-8 pb-2 "> */}
             {/* Our <span className="text-cyan-600">Sponsors</span> */}
-            Our <span style={{ color: "#0000FF" }}>Sponsors</span>
+            {/* Our <span style={{ color: "#0000FF" }}>Sponsors</span>
           </span>
-        </h1>
+        </h1> */}
         {/* <div
           className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover}`}
         >
@@ -243,7 +243,7 @@ const Sponsor = () => {
           </p>
         </div> */}
 
-        <div
+        {/* <div
           className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
           <div className="inline-flex ">
@@ -261,7 +261,7 @@ const Sponsor = () => {
               <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
                 JV Micronics
               </p>
-            </div>
+            </div> */}
             {/* <div>
               <img
                 src="/CSIR.webp"
@@ -272,9 +272,9 @@ const Sponsor = () => {
                 CSIR, GOI
               </p>
             </div> */}
-          </div>
+          {/* </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

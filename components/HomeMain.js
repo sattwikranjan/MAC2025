@@ -226,7 +226,9 @@ const HomeMain = () => {
             <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">
               Technical Co-Sponsors
             </h1>
-            <Sponsors />
+            <h2>*Will be announced soon</h2>
+            
+            {/* <Sponsors /> */}
           </div>
         </section>
       </div>
