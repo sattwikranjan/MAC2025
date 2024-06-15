@@ -209,11 +209,11 @@ const HomeMain = () => {
               </p>
               <a
                 className="text-rose-500 cursor-pointer inline-block md:text-lg"
-                href="#"
+                href="https://cmt3.research.microsoft.com/MAC2025"
                 target="_blank"
                 rel="noreferrer"
               >
-                Will be updated soon.
+                https://cmt3.research.microsoft.com/MAC2025
               </a>
             </div>
           </div>
