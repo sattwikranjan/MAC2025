@@ -59,7 +59,7 @@ export const genChairs = [
   
   {
     title: "Dr.",
-    fullName: "Dr. V. S. Tripathi ",
+    fullName: "Dr. Vijay Shanker Tripathi ",
     organisation: "MNNIT Allahabad, India",
     profileImage: "/vstripathi.jpg",
   },
@@ -557,6 +557,14 @@ export const committeeMembers = [
         fullName: "Prof. K. Subramaniyan",
         organisation: "IGNOU, India",
       },
+      {
+        fullName: "Dr. Geetam Singh Tomar",
+        organisation: "Director, REC Sonbhadra",
+      },
+      {
+        fullName: "Dr. Amit Ojha",
+        organisation: "MANIT Bhopal",
+      },
 
       {
         fullName: "Prof. M.V. Kartikeyan",
@@ -751,6 +759,58 @@ export const committeeMembers = [
         organisation: "DEAL, DRDO, India",
       },
       {
+        fullName: "Dr. Laxmi Kumare",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Sangeeta Nakhare",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Alpna Pandey",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Bhavan P. Shrivastava",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Dheeraj Agrawal",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. D. K. Raghuvanshi",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Vijay Shree Chaurasiya ",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. O. P. Meena",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Manish Kashyap ",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Akkala Subba Rao ",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Rahul Chaurasiya",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Varun Bajaj",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
+        fullName: "Dr. Rahul Pal",
+        organisation: "MANIT Bhopal, India",
+      },
+      {
         fullName: "Dr. Akhilesh Tiwari",
         organisation: "IIIT Allahabad, India",
       },
@@ -811,14 +871,7 @@ export const committeeMembers = [
         fullName: "Dr. Dharmendra Dixit",
         organisation: " MNNIT Allahabad, India",
       },
-      {
-        fullName: "Dr. Arun Kumar Saurabh",
-        organisation: " MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Dr. Sandeep Kumar Singh",
-        organisation: " MNNIT Allahabad, India",
-      },
+     
       {
         fullName: "Dr. M. Venkatesh Kumar",
         organisation: "Amrita Vishwa Vidyapeetham,Chennai",
@@ -831,10 +884,7 @@ export const committeeMembers = [
         fullName: "Dr. Vivek Rajpoot",
         organisation: "VIT Vellore, India",
       },
-      {
-        fullName: "Dr. S. Yuvaraj",
-        organisation: "NIT Andhra Pradesh, India",
-      },
+      
       // {
       //   fullName: "Mr. Mahesh Kumar Aghwariya",
       //   organisation:
