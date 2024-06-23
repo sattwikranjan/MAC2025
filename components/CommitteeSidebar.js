@@ -411,7 +411,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Advisory Committee
             </li>
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee/publicityChair");
                 if (width < 768) {
@@ -423,7 +423,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Publicity Chair
-            </li>
+            </li> */}
             <li
               onClick={() => {
                 router.push("/Committee/technicalProgramCommittee");
