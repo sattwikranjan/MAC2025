@@ -313,9 +313,9 @@ export const FinChairs = [
 export const OrgChair = [
   {
     title: "Prof.",
-    fullName: "N. P. Pathak",
-    organisation: "IIT Roorkee, India",
-    profileImage: "/nppathak.png",
+    fullName: "Dr. G. S. Tomar",
+    organisation: "Director, REC Sonbhadra, India",
+    profileImage: "/gstomar.jpg",
   },
 ];
 
