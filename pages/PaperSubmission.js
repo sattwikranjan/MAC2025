@@ -2,6 +2,7 @@ import React from "react";
 import Lottie from "lottie-react";
 import examsPreparation from "../lottieFiles/examsPreparation.json";
 import gradients from "../styles/customGradient.module.css";
+import SponsorFix from "../components/SponsorFix";
 
 const guideline = () => {
   return (
@@ -56,11 +57,11 @@ const guideline = () => {
                   </p>
                   <a
                     className="text-rose-500 cursor-pointer inline-block md:text-lg"
-                    href="https://cmt3.research.microsoft.com/MAC2025"
+                    href="https://cmt3.research.microsoft.com/MAC2025/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    https://cmt3.research.microsoft.com/MAC2025 
+                    https://cmt3.research.microsoft.com/MAC2025/
                   </a>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-12   ">
@@ -79,11 +80,18 @@ const guideline = () => {
                     registered authors, will be submitted to IEEE Xplore Digital
                     Library for Possible Publication.
                   </p>
+                  {/* <p className="mb-4 leading-relaxed  md:font-semibold md:text-lg">
+                    Extended version of the top 10% papers from MAC 2025 will be
+                    published in a special issue of Defence Science Journal
+                    (SCI).
+                  </p> */}
                 </div>
               </div>
             </section>
           </main>
         </div>
+
+        <SponsorFix />
       </div>
     </main>
   );

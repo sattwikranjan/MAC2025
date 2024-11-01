@@ -1,6 +1,7 @@
 import React from "react";
 import LeftImageCard from "../components/LeftImageCard";
 import RightImageCard from "../components/RightImageCard";
+import SponsorFix from "../components/SponsorFix";
 
 const Tracks = () => {
   return (
@@ -60,6 +61,7 @@ Communication."
           </a>
         </div>
       </div>
+      <SponsorFix />
     </main>
   );
 };

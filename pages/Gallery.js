@@ -1,4 +1,5 @@
 import React from "react";
+import SponsorFix from "../components/SponsorFix";
 
 const Gallery = () => {
   return (
@@ -103,6 +104,7 @@ const Gallery = () => {
           />
         </div>
       </div>
+      <SponsorFix />
     </div>
   );
 };

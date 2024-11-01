@@ -10,7 +10,7 @@ const SponsorCarousel = () => {
           width: 100%;
           height: 150px; /* Adjust the height as needed */
           padding-top: 90px; /* Increase padding from the top */
-          padding-bottom: 175px; /* Decrease padding from the bottom */
+          padding-bottom: 190px; /* Decrease padding from the bottom */
         }
 
         .marquee-item {

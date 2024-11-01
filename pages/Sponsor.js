@@ -1,6 +1,7 @@
 import React from "react";
 import gradients from "../styles/customGradient.module.css";
 import cool from "../styles/track.module.css";
+import SponsorFix from "../components/SponsorFix";
 
 const Sponsor = () => {
   return (
@@ -21,13 +22,13 @@ const Sponsor = () => {
           <p className="text-justify">
             The International Conference on Microwave, Antenna, and
             Communications (MAC 2025) is a premier 3-days event bringing
-            together nearly 1,000 researchers, engineers, and industry leaders
-            from around the world to exchange knowledge, share insights, and
-            explore the latest advancements in microwave engineering, antenna
-            technologies, and communication systems. MAC 2025 expects
-            participation from various countries along with Indian organizations
-            like ISRO, BARC, DRDO, CSIR, DST-SERB, IPR, and academic institutes
-            like IISc, IITs, NITs, IIITs, etc.
+            together researchers, engineers, and industry leaders from around
+            the world to exchange knowledge, share insights, and explore the
+            latest advancements in microwave engineering, antenna technologies,
+            and communication systems. MAC 2025 expects participation from
+            various countries along with Indian organizations like ISRO, BARC,
+            DRDO, CSIR, DST-SERB, and academic institutes like IISc, IITs, NITs,
+            IIITs, etc.
           </p>
           <br />
           <p className="text-justify">
@@ -36,8 +37,7 @@ const Sponsor = () => {
             in the Microwave, Antenna, and Communications industries. This
             international event offers an outstanding opportunity for companies
             to exhibit their products/services and applications to a vibrant and
-            engaged audience, providing access to hundreds of key
-            decision-makers.
+            engaged audience, providing access to key decision-makers.
           </p>
           <br />
           <p className="text-justify">
@@ -57,7 +57,7 @@ const Sponsor = () => {
           </p>
           <br />
           <p className="text-center italic">
-            Looking forward to seeing you in the MAC 2025, at MANIT Bhopal.
+            Looking forward to seeing you in the MAC 2025, at Bhopal.
           </p>
         </div>
       </div>
@@ -76,12 +76,12 @@ const Sponsor = () => {
           <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
             <h2 className="text-xl lg:text-2xl font-bold p-2">
               <span style={{ color: "#0000FF" }}>Organizing</span> Partner:{" "}
-              <span style={{ color: "#0000FF" }}>INR 10.0 Lakh</span>
+              <span style={{ color: "#0000FF" }}>INR 3.0 Lakh</span>
             </h2>
             <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
               <li>
                 Elevate your brand become Partner with Institutes of National
-                Importance and DRDO!
+                Importance
               </li>
               <li>
                 Be seen by the leaders you want to meet & Get prominent
@@ -100,35 +100,39 @@ const Sponsor = () => {
             </ul>
           </div>
 
-          <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
-            <h2 className="text-xl lg:text-2xl font-bold p-2">
-              <span style={{ color: "#0000FF" }}>Signature</span> sponsor:{" "}
-              <span style={{ color: "#0000FF" }}>INR 5.0 Lakh</span>
-            </h2>
-            <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
-              <li>10 Complimentary delegate passes</li>
-              <li>
-                20 minutes Banquet Keynote presentation slot and 1 Hour Workshop
-                Slot
-              </li>
-              <li>
-                Acknowledgement during Inaugural, Awards, Banquet and
-                Valedictory functions
-              </li>
-              <li>Complimentary exhibit booths at Ultra Prime Location</li>
-              <li>
-                Prominent display of logo on all printed material, backdrop and
-                website
-              </li>
-              <li>Permission to keep Company brochure in registration Kit</li>
-            </ul>
-          </div>
-
           <div className="w-full flex flex-col lg:flex-row gap-8 justify-between">
-            <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
+            <div
+              className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
+            >
+              <h2 className="text-xl lg:text-2xl font-bold p-2">
+                <span style={{ color: "#0000FF" }}>Signature</span> sponsor:{" "}
+                <span style={{ color: "#0000FF" }}>INR 2.5 Lakh</span>
+              </h2>
+              <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
+                <li>10 Complimentary delegate passes</li>
+                <li>
+                  20 minutes Banquet Keynote presentation slot and 1 Hour
+                  Workshop Slot
+                </li>
+                <li>
+                  Acknowledgement during Inaugural, Awards, Banquet and
+                  Valedictory functions
+                </li>
+                <li>Complimentary exhibit booths at Ultra Prime Location</li>
+                <li>
+                  Prominent display of logo on all printed material, backdrop
+                  and website
+                </li>
+                <li>Permission to keep Company brochure in registration Kit</li>
+              </ul>
+            </div>
+
+            <div
+              className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
+            >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
                 <span style={{ color: "#0000FF" }}>Diamond</span> sponsor:{" "}
-                <span style={{ color: "#0000FF" }}>INR 3.0 Lakh</span>
+                <span style={{ color: "#0000FF" }}>INR 2.0 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>5 Complimentary delegate passes</li>
@@ -142,13 +146,14 @@ const Sponsor = () => {
                 <li>Permission to keep Company brochure in registration Kit</li>
               </ul>
             </div>
-
+          </div>
+          <div className="w-full flex flex-col lg:flex-row gap-8 justify-between">
             <div
               className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
             >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
                 <span style={{ color: "#0000FF" }}>Platinum</span> sponsor:{" "}
-                <span style={{ color: "#0000FF" }}>INR 2 Lakh</span>
+                <span style={{ color: "#0000FF" }}>INR 1.5 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>4 Complimentary delegate passes</li>
@@ -162,13 +167,12 @@ const Sponsor = () => {
                 <li>Permission to keep Company brochure in registration Kit</li>
               </ul>
             </div>
-          </div>
-
-          <div className="w-full flex flex-col lg:flex-row gap-8 justify-between">
-            <div className={`px-2 card  shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
+            <div
+              className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
+            >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
                 <span style={{ color: "#0000FF" }}>Gold</span> sponsor:{" "}
-                <span style={{ color: "#0000FF" }}>INR 1.5 Lakh</span>
+                <span style={{ color: "#0000FF" }}>INR 1.0 Lakh</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>3 Complimentary delegate passes</li>
@@ -182,36 +186,76 @@ const Sponsor = () => {
                 <li>Permission to keep Company brochure in registration Kit</li>
               </ul>
             </div>
-
+          </div>
+          <div className={`px-2 card shadow-xl mt-8 pt-4 ${cool.coolHover}`}>
+            <h2 className="text-xl lg:text-2xl font-bold p-2">
+              <span style={{ color: "#0000FF" }}>Silver</span> sponsor:{" "}
+              <span style={{ color: "#0000FF" }}>INR 50 Thousand</span>
+            </h2>
+            <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
+              <li>2 Complimentary delegate passes</li>
+              <li>2 minutes pre-recorded video presentation slot</li>
+              <li>Acknowledgement during Valedictory functions</li>
+              <li>Complimentary exhibit booth</li>
+              <li>
+                Display of logo on all printed material, backdrop and website
+              </li>
+              <li>Permission to keep Company brochure in registration Kit</li>
+              <li>
+                15-minute Interaction Session slot especially for Start-UPs
+              </li>
+            </ul>
+          </div>
+          {/* <div className="w-full flex flex-col lg:flex-row gap-8 justify-between">
             <div
               className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
             >
               <h2 className="text-xl lg:text-2xl font-bold p-2">
-                <span style={{ color: "#0000FF" }}>Silver/Start-UPs</span>{" "}
-                sponsor: <span style={{ color: "#0000FF" }}>INR 1.0 Lakh</span>
+                <span style={{ color: "#0000FF" }}>Silver</span> sponsor:{" "}
+                <span style={{ color: "#0000FF" }}>INR 50 Thousand</span>
               </h2>
               <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
                 <li>2 Complimentary delegate passes</li>
                 <li>2 minutes pre-recorded video presentation slot</li>
                 <li>Acknowledgement during Valedictory functions</li>
                 <li>Complimentary exhibit booth</li>
-                <li>Display of logo on all printed material and website</li>
+                <li>
+                  Display of logo on all printed material, backdrop and website
+                </li>
                 <li>Permission to keep Company brochure in registration Kit</li>
                 <li>
                   15-minute Interaction Session slot especially for Start-UPs
                 </li>
               </ul>
             </div>
-          </div>
+            <div
+              className={`px-2 card lg:w-[50%] shadow-xl mt-8 pt-4 ${cool.coolHover}`}
+            >
+              <h2 className="text-xl lg:text-2xl font-bold p-2">
+                <span style={{ color: "#0000FF" }}>Bronze</span> Sponsor:{" "}
+                <span style={{ color: "#0000FF" }}>INR 50 Thousand</span>
+              </h2>
+              <ul className="list-disc pl-4 lg:px-8 lg:pb-6 py-4 text-md lg:text-lg">
+                <li>1 Complimentary delegate passes</li>
+                <li>2 minutes pre-recorded video presentation slot</li>
+                <li>Acknowledgement during Valedictory functions </li>
+                <li>Complimentary exhibit booth</li>
+                <li>
+                  Display of logo on all printed material, backdrop and website
+                </li>
+                <li>Permission to keep Company brochure in registration Kit</li>
+              </ul>
+            </div>
+          </div> */}
         </div>
       </div>
-      {/* <div className="mt-8 p-2 mx-2 md:mx-8">
+      <div className="mt-8 p-2 mx-2 md:mx-8">
         <h1 className="font-extrabold text-4xl md:text-5xl text-center">
-          <span className=" border-b-4 border-orange-500 px-0 md:px-8 pb-2 "> */}
+          <span className=" border-b-4 border-orange-500 px-0 md:px-8 pb-2 ">
             {/* Our <span className="text-cyan-600">Sponsors</span> */}
-            {/* Our <span style={{ color: "#0000FF" }}>Sponsors</span>
+            Our <span style={{ color: "#0000FF" }}>Sponsors</span>
           </span>
-        </h1> */}
+        </h1>
         {/* <div
           className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover}`}
         >
@@ -243,38 +287,123 @@ const Sponsor = () => {
           </p>
         </div> */}
 
-        {/* <div
+        <div
           className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
         >
-          <div className="inline-flex ">
-            <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+          <h2>*Will be announced soon</h2>
+          {/* <div className="inline-flex ">
+            <h1 className="text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
               Gold{" "}
+            </h1>
+          </div>
+          <div className="flex flex-col md:flex-row justify-around items-center">
+            <div className="flex flex-col items-center">
+              <img
+                src="/Logo-JV-Micronics.png"
+                alt="logo"
+                className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                JV Micronics
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/apc.png"
+                alt="logo"
+                className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                APC Technologies
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/SciMic.png"
+                alt="logo"
+                className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                Scientific Microwave
+              </p>
+            </div>
+          </div> */}
+        </div>
+
+        <div
+          className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
+        >
+          {/* <div className="inline-flex ">
+            <h1 className=" text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+              Silver{" "}
             </h1>
           </div>
           <div className=" flex flex-col md:flex-row justify-around items-center ">
             <div>
               <img
-                src="/Logo-JV-Micronics.png"
+                src="/agmatel.png"
                 alt="logo"
                 className="w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
               />
               <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                JV Micronics
+                Agmatel
               </p>
-            </div> */}
-            {/* <div>
+            </div>
+          </div> */}
+        </div>
+
+        <div
+          className={` text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}`}
+        >
+          {/* <div className="inline-flex ">
+            <h1 className="text-center font-extrabold text-3xl tracking-wide leading-relaxed md:text-4xl pt-2 text-cyan-600">
+              Bronze{" "}
+            </h1>
+          </div>
+          <div className="flex flex-col md:flex-row justify-around items-center">
+            <div className="flex flex-col items-center">
               <img
-                src="/CSIR.webp"
+                src="/electro.png"
                 alt="logo"
-                className="md:-mt-8 w-64 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+                className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
               />
               <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
-                CSIR, GOI
+                Icon Electromatic Private Limited
               </p>
-            </div> */}
-          {/* </div>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/6_Bronze.jpeg"
+                alt="logo"
+                className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                NUMEREGION&apos;s TaraNG
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/bronze_logo_1.jpeg"
+                alt="logo"
+                className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                Mmrfic technology pvt ltd
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="/bronze_logo_2.jpeg"
+                alt="logo"
+                className="w-40 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform hover:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75"
+              />
+              <p className="text-xl md:text-2xl font-semibold -mt-8 pb-4">
+                Synergy telecom pvt ltd
+              </p>
+            </div>
+          </div> */}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
