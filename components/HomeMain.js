@@ -47,16 +47,16 @@ const HomeMain = () => {
         className={`h-[60vh] md:h-[95vh] mt-[80px] relative ${gradients.homePage}`}
       >
         <HomeImageGallery />
-        <div className="absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10">
-          <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%]  md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10">
+        <div className="absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10 ">
+          <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%]  md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10 ">
             <div className="font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4 mb-6">
               <span className="text-orange-400"></span>{" "}
-              <span className="text-blue-900">
+              <span className="text-white">
                 3rd International Conference on
               </span>{" "}
-              <span className="text-orange-400">Microwave</span>{" "}
+              <span className="text-white">Microwave</span>{" "}
               <span className="text-white">, Antenna and</span>{" "}
-              <span className="text-green-500">Communication </span>{" "}
+              <span className="text-white">Communication </span>{" "}
               <span className="text-white">2025 </span>
               <span className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl">
                 <br></br>
