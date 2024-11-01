@@ -441,7 +441,7 @@ export const confChairs = [
     title: "Dr.",
     fullName: "Gaurav Updahyay ",
     organisation: "MANIT Bhopal, India",
-    profileImage: "/gauravupadhyay.png",
+    profileImage: "/drgaurav.png",
   },
   {
     title: "Dr.",
