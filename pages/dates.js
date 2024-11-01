@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import SponsorFix from "../components/SponsorFix";
 
 const Dates = () => {
   return (
@@ -10,64 +11,78 @@ const Dates = () => {
         </span>
       </h1>
       <div class="flex justify-center">
-        <div class="flex flex-col w-full items-center justify-center">
-          <div class="w-full text-sm md:text-lg mb-4 mt-8 flex flex-col items-center font-bold italic">
-            <p class="md:mb-8 w-2/3 leading-relaxed font-semibold text-lg self-center text-left mt-4">
-              
+        <div className="flex flex-col w-full items-center justify-center">
+          <div className="w-full text-sm md:text-lg mb-4 mt-8 flex flex-col items-center font-bold italic">
+            <p className="w-full md:w-auto leading-relaxed font-semibold text-lg text-center md:text-left mt-4 whitespace-nowrap">
+              Papers are accepted in multiple stages.
             </p>
 
-            <table class="text-[12px] md:text-lg lg:text-lg w-2/3">
-              <tbody colspan="3" rowspan="4">
-                <tr>
-                  <td class="text-center px-4 border border-black w-2/3 md: w-64">
-                    Category
-                  </td>
-                  <td class="text-center px-4 border border-black">
-                    Paper Submission Deadline
-                  </td>
-                  
-                </tr>
-                <tr class="">
-                  <td class="text-center py-2 border border-black w-2/3 md: w-64">
-                    Early Bird*
-                  </td>
-                  <td class="text-center py-2 border border-black">
-                    February 20,  2025
-                  </td>
-                  
-                </tr>
-                
-                <tr class="">
-                  <td class="text-center py-2 border border-black w-2/3 md: w-64">
-                    Regular Paper
-                  </td>
-                  <td class="text-center py-2 border border-black">
-                  March 31, 2025
-                  </td>
-                  
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="w-full flex justify-center items-center font-bold italic">
-            <table class="w-2/3 border border-black">
+            <table class="text-[12px] md:text-lg lg:text-lg w-full max-w-3xl mx-auto">
               <tbody>
-                <tr class=" border border-black" colSpan={3}>
-                  <td colSpan={2} class=" border border-black w-2/3 md: w-64">
-                    <div class="text-left px-4">
-                      Camera Ready Paper Submission Deadline
-                    </div>
+                <tr>
+                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                    1.
                   </td>
-                  <td class="text-center py-2 border border-black border border-black w-2/3 md: w-64">
-                  June 10, 2025
+                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                    Paper Submission Starts
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                    November 15, 2024
                   </td>
                 </tr>
-                <tr class=" border border-black" colSpan={3}>
-                  <td colSpan={2} class=" border border-black w-2/3 md: w-64">
-                    <div class="text-left px-4">Registration Deadline</div>
+                <tr>
+                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                    2.
                   </td>
-                  <td class="text-center py-2 border border-black border border-black w-2/3 md: w-64">
-                   June 10, 2025
+                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                    Last Date for Paper Submission
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                    February 28, 2025
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                    3.
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                    Acceptance Notification
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                    May 1, 2025
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                    4.
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                    Early Bird Registration
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                    May 15, 2025
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                    5.
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                    Registration Deadline
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                    June 01, 2025
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center px-4 py-2 border border-black w-1/12">
+                    6.
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-7/12">
+                    Camera Ready Paper Submission
+                  </td>
+                  <td class="text-center px-4 py-2 border border-black w-4/12">
+                    June 01, 2025
                   </td>
                 </tr>
               </tbody>
@@ -75,10 +90,10 @@ const Dates = () => {
           </div>
         </div>
       </div>
-      <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
-        *Acceptance notification May 10, 2025
-.
-      </p>
+      {/* <p class="md:mb-8 leading-relaxed font-semibold text-lg text-center mt-4">
+        *10% of Registration fee will be reimbursed (applicable to only
+        B.Tech./M.Tech. Students who have registered as first author).
+      </p> */}
 
       {/*
 <div className='text-center'>
@@ -204,6 +219,7 @@ const Dates = () => {
 
 </div>
 */}
+      <SponsorFix />
     </div>
   );
 };

@@ -10,6 +10,7 @@ import Map from "./Map";
 import TechCollabGallery from "./TechCollabGallery";
 import Link from "next/link";
 import Sponsors from "../components/Sponsors";
+import Sponsors1 from "../components/Sponsors1";
 import { IoMdNotifications } from "react-icons/io";
 import SponsorCarousel from "./SponsorCarousel";
 import NotificationCarousel from "./Notification";
@@ -34,17 +35,23 @@ const HomeMain = () => {
     </div>
   </div>
 </div> */}
-      {/* <SponsorCarousel /> */}
+
+      {/* <SponsorCarousel />
       <NotificationCarousel />
+      <img
+        src="Standee1.jpg"
+        className="h-[60%] w-[60%] object-contain mx-auto"
+      /> */}
+
       <div
-        className={`h-[60vh] md:h-[95vh] mt-[15px] relative ${gradients.homePage}`}
+        className={`h-[60vh] md:h-[95vh] mt-[80px] relative ${gradients.homePage}`}
       >
         <HomeImageGallery />
         <div className="absolute top-10 flex flex-col justify-center items-center sm:flex-row sm:gap-10">
-          <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10">
+          <div className="md:top-[20%] lg:top-[20%] xl:top-[5%] left-0 z-10 w-[90%] md:w-[65%] lg:w-[60%]  md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10">
             <div className="font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4 mb-6">
               <span className="text-orange-400"></span>{" "}
-              <span className="text-white">
+              <span className="text-blue-900">
                 3rd International Conference on
               </span>{" "}
               <span className="text-orange-400">Microwave</span>{" "}
@@ -52,11 +59,11 @@ const HomeMain = () => {
               <span className="text-green-500">Communication </span>{" "}
               <span className="text-white">2025 </span>
               <span className="text-white text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-                <br></br>(Industry-Academia Conclave)
+                <br></br>
               </span>
             </div>
             <div className="w-full my-2 sm:pl-0 flex flex-col justify-center gap-4 lg:justify-start lg:gap-10 font-semibold">
-              <div className="flex w-full max-w-[600px] justify-around md:justify-between">
+              <div className="flex w-full max-w-[650px] justify-around md:justify-between">
                 <div>
                   <p className="flex items-center gap-3">
                     <Link href="/registration">
@@ -80,7 +87,7 @@ const HomeMain = () => {
                     </Link>
                     <span className="text-sm lg:text-lg text-white">
                       {" "}
-                      MANIT Bhopal, Madhya Pradesh, India
+                      MANIT Bhopal, M.P. India
                     </span>
                   </p>
                 </div>
@@ -92,21 +99,23 @@ const HomeMain = () => {
             <a
               href="/mac_2025.pdf"
               download={true}
-              className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+              // className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+              className="block w-[50%] text-blue-900 bg-blue-200 hover:bg-orange-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-300 dark:hover:bg-blue-700 dark:focus:ring-blue-900"
             >
               Call For Papers
             </a>
 
             <a
-              href="https://cmt3.research.microsoft.com/MAC2025"
-              className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+              href="https://cmt3.research.microsoft.com/MAC2025/"
+              // className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+              className="block w-[50%]  text-blue-900 bg-blue-200 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900"
             >
               Submit Papers
             </a>
 
             {/* <a href="/registration" class="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Registration</a> */}
             <Link href="/registration">
-              <span className="block w-[70%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+              <span className="block w-[50%]  text-blue-900 bg-blue-200 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-[12px] sm:text-sm px-5 py-2.5 text-center mb-1 sm:mb-10 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
                 Registration
               </span>
             </Link>
@@ -121,39 +130,52 @@ const HomeMain = () => {
               <h1 className="relative title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">
                 <span className="text-orange-400">MAC</span>2025
               </h1>
-              {/* <h2 className="text-lg">
+              <h2 className="text-lg">
                 <span>Co-Organised By</span>
 
                 <p>
-                  
-                 
+                  <span className="text-orange-500 font-bold text-xl block">
+                    MANIT Bhopal, India
+                  </span>
+                  <span className="text-orange-500 font-bold text-xl block">
+                    RGPV Bhopal, India
+                  </span>
+
+                  {/* <span className="text-orange-500 font-bold text-xl block">
+                    VMSB UTU (THDC-IHET), Uttarakhand, India
+                  </span> */}
+                  {/* <span className="text-black-500 font-bold text-xl block">
+    &
+  </span> */}
                   <span className="text-orange-500 font-bold text-xl block">
                     MNNIT ALLAHABAD, India
                   </span>
                 </p>
-              </h2> */}
+              </h2>
               <br />
               <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
                 Welcome to the 3rd International Conference on Microwave,
                 Antenna, and Communication (MAC-2025)! Join us in the scenic
                 city of Bhopal, Madhya Pradesh, India, from June 27-29, 2025,
                 for an enriching experience of knowledge, research and
-                innovation.Technically sponsored by IEEE MP section and IEEE UP section, jointly, MAC-2025 serves as a dynamic platform, bringing
-                together researchers, academicians, industry professionals, and
-                startups to showcase their cutting-edge research, share
-                innovative ideas, and explore the emerging trends of Microwave,
-                Antenna and Communication technologies. MAC-2025 will also
-                feature a special track on Young Professionals, Women in
-                Engineering and SIGHT, which will provide opportunities for
-                networking, mentoring and career development. The conference
-                will feature keynote speeches, invited talks, panel discussions,
-                technical sessions, poster presentations and exhibitions. Let us
-                engage in thought-provoking technical sessions, delve into
-                recent developments, and foster collaborative discussions.
-                MAC-2025 is an opportunity to you for collaboration and
-                networking with international industry/academia experts. We
-                invite you to join us at MAC-2025 and be a part of this exciting
-                event!
+                innovation.Technically sponsored by IEEE MP section and IEEE UP
+                section, MAC 2025 is jointly organised by MANIT Bhopal,RGPV
+                Bhopal and MNNIT Allahabad. MAC-2025 serves as a dynamic
+                platform, bringing together researchers, academicians, industry
+                professionals, and startups to showcase their cutting-edge
+                research, share innovative ideas, and explore the emerging
+                trends of Microwave, Antenna and Communication technologies.
+                MAC-2025 will also feature a special track on Young
+                Professionals, Women in Engineering and SIGHT, which will
+                provide opportunities for networking, mentoring and career
+                development. The conference will feature keynote speeches,
+                invited talks, panel discussions, technical sessions, poster
+                presentations and exhibitions. Let us engage in
+                thought-provoking technical sessions, delve into recent
+                developments, and foster collaborative discussions. MAC-2025 is
+                an opportunity to you for collaboration and networking with
+                international experts. We invite you to join us at MAC-2025 and
+                be a part of this exciting event!
               </p>
             </div>
 
@@ -209,26 +231,42 @@ const HomeMain = () => {
               </p>
               <a
                 className="text-rose-500 cursor-pointer inline-block md:text-lg"
-                href="https://cmt3.research.microsoft.com/MAC2025"
+                href="https://cmt3.research.microsoft.com/MAC2025/"
                 target="_blank"
                 rel="noreferrer"
               >
-                https://cmt3.research.microsoft.com/MAC2025
+                https://cmt3.research.microsoft.com/MAC2025/
               </a>
+
+              {/* <h1 className="title-font text-orange-600 sm:text-3xl text-2xl mb-1 mt-8 md:mt-2 font-medium text-gray-900 block">
+                Mode of Conduction:
+              </h1>
+              <h1 className="title-font sm:text-2xl text-2xl mb-4 mt-1 md:mt-2 font-medium text-gray-900 block">
+                Hybrid Mode
+              </h1> */}
+              <p className="px-16 md:px-0 mb-4 leading-relaxed  md:font-semibold md:text-lg"></p>
             </div>
           </div>
         </section>
 
         <Map />
+        <section className="p-6">
+          <div className=" container mx-auto flex md:px-5 py-2 flex-col">
+            <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">
+              In Partnership with
+            </h1>
+            <h2>*Will be announced soon</h2>
+            {/* <Sponsors1 /> */}
+          </div>
+        </section>
 
         <section className="p-6">
           <div className=" container mx-auto flex md:px-5 py-2 flex-col">
             <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">
               Technical Co-Sponsors
             </h1>
-            <h2>*Will be announced soon</h2>
-            
-            {/* <Sponsors /> */}
+            {/* <h2>*Will be announced soon</h2> */}
+            <Sponsors />
           </div>
         </section>
       </div>
