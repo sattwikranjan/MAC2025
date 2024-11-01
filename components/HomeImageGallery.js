@@ -33,8 +33,8 @@ export default function HomeImageGallery() {
                 repeatType: "reverse",
                 ease: "linear",
               }}
-              src="/pic2.jpeg"
-              className="w-full h-full brightness-75  object-cover"
+              src="/pic.jpeg"
+              className="scale w-full h-full brightness-75  object-cover"
             />
           </div>
         </SwiperSlide>
@@ -49,8 +49,8 @@ export default function HomeImageGallery() {
                 repeatType: "reverse",
                 ease: "linear",
               }}
-              src="/pic.jpeg"
-              className="scale w-full h-full brightness-75  object-cover"
+              src="/pic2.jpeg"
+              className="w-full h-full brightness-75  object-cover"
             />
           </div>
         </SwiperSlide>
