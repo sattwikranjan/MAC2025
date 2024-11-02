@@ -33,12 +33,28 @@ export default function HomeImageGallery() {
                 repeatType: "reverse",
                 ease: "linear",
               }}
-              src="/pic.jpg"
-              className="scale w-full h-full brightness-75  object-cover"
+              src="/pic3.jpeg"
+              className="w-full h-full brightness-75  object-cover"
             />
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full h-full overflow-hidden">
+            <motion.img
+              initial={{ scale: 1 }}
+              animate={{ scale: 1.4 }}
+              transition={{
+                duration: 20,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "linear",
+              }}
+              src="/pic4.jpeg"
+              className="w-full h-full brightness-75  object-cover"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className="w-full h-full overflow-hidden">
             <motion.img
               initial={{ scale: 1 }}
@@ -53,7 +69,23 @@ export default function HomeImageGallery() {
               className="w-full h-full brightness-75  object-cover"
             />
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full h-full overflow-hidden">
+            <motion.img
+              initial={{ scale: 1 }}
+              animate={{ scale: 1.4 }}
+              transition={{
+                duration: 20,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "linear",
+              }}
+              src="/pic1.jpeg"
+              className="scale w-full h-full brightness-75  object-cover"
+            />
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );
