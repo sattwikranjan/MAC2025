@@ -439,13 +439,13 @@ export const PublicityChairs = [
 export const confChairs = [
   {
     title: "Dr.",
-    fullName: "Gaurav Updahyay ",
+    fullName: "Gaurav Upadhyay ",
     organisation: "MANIT Bhopal, India",
     profileImage: "/drgaurav.png",
   },
   {
     title: "Dr.",
-    fullName: "Atul kumar ",
+    fullName: "Atul Kumar ",
     organisation: "MANIT Bhopal, India",
     profileImage: "/atulkumar.png",
   },
