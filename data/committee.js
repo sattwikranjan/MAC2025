@@ -183,12 +183,12 @@ export const WebsiteChair = [
 ];
 
 export const IndustryInteractionChair = [
-  {
-    title: "Prof.",
-    fullName: "Karun Rawat",
-    organisation: "IIT Roorkee, India",
-    profileImage: "/karun.jpeg",
-  },
+  // {
+  //   title: "Prof.",
+  //   fullName: "Karun Rawat",
+  //   organisation: "IIT Roorkee, India",
+  //   profileImage: "/karun.jpeg",
+  // },
   {
     title: "Dr.",
     fullName: "Girish Chandra Tripathi",
@@ -1188,6 +1188,10 @@ export const committeeMembers = [
         fullName: "Dr. Vikrant Varshney",
         organisation: "Synopsys, Bengaluru, India",
       },
+      {
+        fullName: "Dr. Piyush Kumar Mishra",
+        organisation: "IISc Bangalore, India",
+      },
       // {
       //   fullName: "Dr. Nayneesh Kumar Mishra",
       //   organisation: "IIIT Allahabad, India",
@@ -1314,28 +1318,107 @@ export const committeeMembers = [
       //   fullName: "Dr. Krishan Kumar",
       //   organisation: "NIT Hamirpur, India",
       // },
+
       {
         fullName: "Dr. Raghvendra Pal",
         organisation: "NIT Surat, India",
       },
-      // {
-      //   fullName: "Dr. Anurag Upadhyay",
-      //   organisation: "REC Ajamgarh",
-      // },
+
       {
-        fullName: "Mr. Ravindra Kumar,",
+        fullName: "Mr. Pawan Kumar Shukla",
         organisation: "MNNIT Allahabad, India",
       },
       {
-        fullName: "Ms. Meenakshi Tripathi",
+        fullName: "Mr. Ravindra Kumar",
+        organisation: "MNNIT Allahabad, India",
+      },
+
+      {
+        fullName: "Mr. Nitin Kumar Nishad",
+        organisation: "MNNIT Allahabad, India",
+      },
+      // {
+      //   fullName: "Ms. Sandhya Kanoujia",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
+      // {
+      //   fullName: "Mr. Dinesh Kumar",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
+      // {
+      //   fullName: "Ms. Khushboo Singh",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
+      {
+        fullName: "Ms. Aayushi Srivastava",
+        organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Ms. Diksha Parya",
+        organisation: "MNNIT Allahabad, India",
+      },
+      {
+        fullName: "Ms. Aleesha Nadeem",
+        organisation: "MANIT BHOPAL, India",
+      },
+
+      {
+        fullName: "Ms. Srishti",
+        organisation: "MANIT BHOPAL, India",
+      },
+      {
+        fullName: "Ms. Sejal Jain",
+        organisation: "MANIT BHOPAL, India",
+      },
+      {
+        fullName: "Ms. Vamsi Krishna",
+        organisation: "MANIT BHOPAL, India",
+      },
+      {
+        fullName: "Mr. Yashwant Sahu ",
+        organisation: "MANIT BHOPAL, India",
+      },
+      {
+        fullName: "Mr. Sunanth Pashikanti",
+        organisation: "MANIT BHOPAL, India",
+      },
+      {
+        fullName: "Ms. Bharti Parmar",
+        organisation: "MANIT BHOPAL, India",
+      },
+      {
+        fullName: "Mr. Jitendra Singh",
+        organisation: "MANIT BHOPAL, India",
+      },
+      {
+        fullName: "Mr. Debojeet Shaha",
+        organisation: "MANIT BHOPAL, India",
+      },
+    ],
+  },
+  {
+    title: "Student Co-ordinator",
+    name: "studentCoodinator",
+    data: [
+      // {
+      //   fullName: "Ms. Pooja Sharma",
+      //   organisation: "MNNIT Allahabad, India",
+      // },
+      {
+        fullName: "Mr. Tilakdhari Singh",
         organisation: "MNNIT Allahabad, India",
       },
       {
         fullName: "Mr. Yajush Rai",
         organisation: "MNNIT Allahabad, India",
       },
+      {
+        fullName: "Mr. Aditya Pal",
+        organisation: "MNNIT Allahabad, India",
+      },
+
       // {
-      //   fullName: "Mr. Piyush Patel",
+      //   fullName: "Mr. Adnaan Saleem",
       //   organisation: "MNNIT Allahabad, India",
       // },
       {
@@ -1347,97 +1430,7 @@ export const committeeMembers = [
         organisation: "MNNIT Allahabad, India",
       },
       {
-        fullName: "Ms. Sandhya Kanoujia",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Dinesh Kumar",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Ms. Khushboo Singh",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Ms. Aayushi Srivastava",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Ms. Diksha Parya",
-        organisation: "MNNIT Allahabad, India",
-      },
-    ],
-  },
-  {
-    title: "Student Co-ordinator",
-    name: "studentCoodinator",
-    data: [
-      {
-        fullName: "Ms. Pooja Sharma",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Tilakdhari Singh",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Aditya Pal",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Pawan Kumar Shukla,",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Piyush Kumar Mishra",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Adnaan Saleem",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Mr. Nitin Kumar Nishad",
-        organisation: "MNNIT Allahabad, India",
-      },
-      {
-        fullName: "Ms. Aleesha Nadeem",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Ms. Sejal deolikar",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Ms. Srishti",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Ms. Sejal jain",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Ms. Vamsi krishna",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Mr. Yashwant sahu ",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Mr. Sunanth pashikanti",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Ms. Bharti Parmar",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Mr. Jitendra singh",
-        organisation: "MANIT BHOPAL, India",
-      },
-      {
-        fullName: "Mr. Debojeet shaha",
+        fullName: "Ms. Sejal Deolikar",
         organisation: "MANIT BHOPAL, India",
       },
     ],

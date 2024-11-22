@@ -289,7 +289,7 @@ const Committee = () => {
               </div>
             </div> */}
 
-            {/* <div>
+            <div>
               <div id="industryintchair" className="h-20 mb-16 md:mb-0"></div>
               <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                 {" "}
@@ -309,7 +309,7 @@ const Committee = () => {
                   />
                 ))}
               </div>
-            </div> */}
+            </div>
 
             <div>
               <div id="confchairs" className="h-20 mb-16 md:mb-0"></div>
