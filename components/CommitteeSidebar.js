@@ -73,7 +73,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Patrons
             </li>
-            {/* <li
+            <li
               onClick={() => {
                 router.push("/Committee#honchairs");
                 if (width < 768) {
@@ -85,7 +85,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Honorary Chair
-            </li> */}
+            </li>
             <li
               onClick={() => {
                 router.push("/Committee#orgChair");
@@ -127,7 +127,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               Conference Chairs
             </li>
 
-            {/* <li
+            <li
               onClick={() => {
                 router.push("/Committee#programchairs");
                 if (width < 768) {
@@ -141,7 +141,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               Program Chairs
             </li>
 
-            <li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#keynotechair");
                 if (width < 768) {
@@ -153,7 +153,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Keynote Chair
-            </li> */}
+            </li>  */}
             {/* <li
               onClick={() => {
                 router.push("/Committee#eventmanagechair");
@@ -261,7 +261,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Publicity Chair
             </li>
-            {/* <li
+            <li
               onClick={() => {
                 router.push("/Committee#sponsorshipcochair");
                 if (width < 768) {
@@ -273,7 +273,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Sponsorship Co-Chair
-            </li> */}
+            </li>
             {/*<li
               onClick={() => {
                 router.push("/Committee#industryintcochair");
@@ -288,7 +288,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               Industry Interaction Co-Chair
             </li>*/}
 
-            {/*<li
+            {/* <li
               onClick={() => {
                 router.push("/Committee#sponsorshipchair");
                 if (width < 768) {
@@ -300,8 +300,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Sponsorship Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#marketingchair");
                 if (width < 768) {
@@ -313,8 +313,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Marketing Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#socialmdchair");
                 if (width < 768) {
@@ -326,8 +326,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Social Media Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#websitechair");
                 if (width < 768) {
@@ -339,8 +339,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Website Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#workshopchair");
                 if (width < 768) {
@@ -352,8 +352,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Workshop Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#workshopcochair");
                 if (width < 768) {
@@ -365,8 +365,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Workshop Co-Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#regchair");
                 if (width < 768) {
@@ -378,8 +378,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Registration Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#regcochair");
                 if (width < 768) {
@@ -391,8 +391,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Registration Co-Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#localarrangechair");
                 if (width < 768) {
@@ -404,8 +404,8 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Local Arrangements Chair
-            </li>
-            <li
+            </li> */}
+            {/* <li
               onClick={() => {
                 router.push("/Committee#localarrangecochair");
                 if (width < 768) {
@@ -460,7 +460,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
             >
               Technical Program Committee
             </li>
-            {/* <li
+            <li
               onClick={() => {
                 router.push("/Committee#tpcchairs");
                 if (width < 768) {
@@ -472,7 +472,7 @@ const CommitteeSidebar = ({ width, isOpen, setIsOpen }) => {
               )}`}
             >
               Technical Program Committee Co-Chair
-            </li> */}
+            </li>
 
             {/* <li
               onClick={() => {
