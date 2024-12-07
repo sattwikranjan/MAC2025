@@ -81,12 +81,12 @@ export const honChairs = [
 ];
 
 export const genChairs = [
-  // {
-  //   title: "Dr.",
-  //   fullName: "Vijay Shanker Tripathi ",
-  //   organisation: "MNNIT Allahabad, India",
-  //   profileImage: "/vst_sir_pic.png",
-  // },
+  {
+    title: "Dr.",
+    fullName: "Vijay Shanker Tripathi ",
+    organisation: "MNNIT Allahabad, India",
+    profileImage: "/vst_sir_pic.png",
+  },
   {
     title: "Dr.",
     fullName: "R.N. Yadav ",
