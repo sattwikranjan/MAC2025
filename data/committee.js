@@ -202,12 +202,12 @@ export const IndustryInteractionChair = [
     organisation: "Tejas Networks, India",
     profileImage: "/gctripathi.png",
   },
-  {
-    title: "Ms.",
-    fullName: "Pooja Sharma",
-    organisation: "MNNIT Allahabad, India",
-    profileImage: "/pooja.png",
-  },
+  // {
+  //   title: "Ms.",
+  //   fullName: "Pooja Sharma",
+  //   organisation: "MNNIT Allahabad, India",
+  //   profileImage: "/pooja.png",
+  // },
   {
     title: "Dr.",
     fullName: "Vikrant Varshney",
@@ -1113,7 +1113,8 @@ export const committeeMembers = [
       },
       {
         fullName: "Dr. Nrusingha Charan Pradhan",
-        organisation: "Reykjavik University, Iceland",
+        organisation:
+          "School of Engineering Central University of Karnataka, India",
       },
       // {
       //   fullName: "Dr. Vimal Kumar Singh",
