@@ -32,11 +32,11 @@ export default function Sponsors() {
             <img src="/IEEE.webp" className={`${styles.responsive}`}/>
           </div>
         </SwiperSlide> */}
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="w-[200px] h-[200px] flex justify-center items-center p-4">
               <img src="/ieeeUP.jpg" className={`${styles.responsive}`} />
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div className="w-[200px] h-[200px] flex justify-center items-center p-4">
               <img src="/ieeemp (3).png" className={`${styles.responsive}`} />
@@ -92,11 +92,11 @@ export default function Sponsors() {
             <img src="/advancing.png" className={`${styles.responsive}`}/>
           </div>
         </SwiperSlide> */}
-          <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
             <div>
               <img src="/ieeeUP.jpg" className={`${styles.responsive}`} />
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
           {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div>
             <img src="/apslogo1.png" className={`${styles.responsive}`}/>
