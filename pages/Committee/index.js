@@ -118,7 +118,7 @@ const Committee = () => {
                   ))}
                 </div>
               </div>
-              <div>
+              {/* <div>
                 <div id="orgChair" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   {" "}
@@ -136,7 +136,7 @@ const Committee = () => {
                     />
                   ))}
                 </div>
-              </div>
+              </div> */}
               <div>
                 <div id="genchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
@@ -314,7 +314,7 @@ const Committee = () => {
             <div>
               <div id="confchairs" className="h-20 mb-16 md:mb-0"></div>
               <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
-                Conference Chairs
+                Conference Organising Chair
               </h1>
               <div className="flex gap-8 flex-wrap justify-center items-center">
                 {confChairs.map((chair) => (
@@ -337,7 +337,7 @@ const Committee = () => {
                 ></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   {" "}
-                  Sponsorship Co-Chair
+                  Sponsorship Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
                   {SponsorshipCoChair.map((chair) => (
@@ -608,7 +608,7 @@ const Committee = () => {
                 <div id="tpcchairs" className="h-20 mb-16 md:mb-0"></div>
                 <h1 className="mb-6 text-xl md:text-3xl font-bold text-center">
                   {" "}
-                  Technical Program Committee Co-Chair
+                  Technical Program Committee Chair
                 </h1>
                 <div className="flex gap-8 flex-wrap justify-center items-center">
                   {TPC.map((chair) => (

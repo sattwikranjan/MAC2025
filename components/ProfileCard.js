@@ -2,19 +2,18 @@ import React from "react";
 
 const ProfileCard = ({ title, fullName, post, organisation, profileImage }) => {
   return (
-    <div className="card w-72 md:w-[285px] ">
-      <figure className="">
+    <div className="card w-72 md:w-[285px] flex flex-col items-center text-center">
+      <figure className="w-full flex justify-center">
         {profileImage && (
           <img
             src={profileImage}
-            alt=""
-            className="h-40 mx-8 mt-4 w-2/4 object-cover object-top rounded-full"
+            alt="Profile"
+            className="h-40 w-40 object-cover object-top rounded-full mt-4"
           />
         )}
       </figure>
-      <div className="card-body text-black font-semibold">
-        <div className="text-2xl font-bold ">
-          {/* <h1>{title}</h1> */}
+      <div className="card-body text-black font-semibold w-full flex flex-col items-center">
+        <div className="text-2xl font-bold">
           <h1>{fullName}</h1>
         </div>
         <h1>{post}</h1>
