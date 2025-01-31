@@ -158,24 +158,23 @@ const HomeMain = () => {
                 Antenna, and Communication (MAC-2025)! Join us in the scenic
                 city of Bhopal, Madhya Pradesh, India, from June 27-29, 2025,
                 for an enriching experience of knowledge, research and
-                innovation.Technically sponsored by IEEE MP section and IEEE UP
-                section, MAC 2025 is jointly organised by MANIT Bhopal,RGPV
-                Bhopal and MNNIT Allahabad. MAC-2025 serves as a dynamic
-                platform, bringing together researchers, academicians, industry
-                professionals, and startups to showcase their cutting-edge
-                research, share innovative ideas, and explore the emerging
-                trends of Microwave, Antenna and Communication technologies.
-                MAC-2025 will also feature a special track on Young
-                Professionals, Women in Engineering and SIGHT, which will
-                provide opportunities for networking, mentoring and career
-                development. The conference will feature keynote speeches,
-                invited talks, panel discussions, technical sessions, poster
-                presentations and exhibitions. Let us engage in
-                thought-provoking technical sessions, delve into recent
-                developments, and foster collaborative discussions. MAC-2025 is
-                an opportunity to you for collaboration and networking with
-                international experts. We invite you to join us at MAC-2025 and
-                be a part of this exciting event!
+                innovation.Technically sponsored by IEEE MP section, MAC 2025 is
+                jointly organised by MANIT Bhopal,RGPV Bhopal and MNNIT
+                Allahabad. MAC-2025 serves as a dynamic platform, bringing
+                together researchers, academicians, industry professionals, and
+                startups to showcase their cutting-edge research, share
+                innovative ideas, and explore the emerging trends of Microwave,
+                Antenna and Communication technologies. MAC-2025 will also
+                feature a special track on Young Professionals, Women in
+                Engineering and SIGHT, which will provide opportunities for
+                networking, mentoring and career development. The conference
+                will feature keynote speeches, invited talks, panel discussions,
+                technical sessions, poster presentations and exhibitions. Let us
+                engage in thought-provoking technical sessions, delve into
+                recent developments, and foster collaborative discussions.
+                MAC-2025 is an opportunity to you for collaboration and
+                networking with international experts. We invite you to join us
+                at MAC-2025 and be a part of this exciting event!
               </p>
             </div>
 
