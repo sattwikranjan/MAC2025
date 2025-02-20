@@ -351,9 +351,9 @@ export const SponsorshipCoChair = [
   // },
   {
     title: "",
-    fullName: "Shashwat Pathak",
-    organisation: "Atal Incubation Centre - GNITS,India",
-    profileImage: "/shashwat2.jpeg",
+    fullName: "Piyush Kumar Mishra",
+    organisation: "IISc Bangalore, India",
+    profileImage: "/Piyush_kMishra.png",
   },
   {
     title: "Prof.",
