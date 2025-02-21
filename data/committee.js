@@ -352,7 +352,7 @@ export const SponsorshipCoChair = [
   {
     title: "",
     fullName: "Shashwat Pathak",
-    organisation: "Atal Incubation Centre - GNITS,India",
+    organisation: "CEO,AIC GNITS foundation, India",
     profileImage: "/shashwat2.jpeg",
   },
   {
@@ -461,9 +461,9 @@ export const PublicChairs = [
 export const PublicityChairs = [
   {
     title: "Dr.",
-    fullName: "Shashwat Pathak",
-    organisation: "CEO,AIC GNITS Foundation",
-    profileImage: "/shashwat2.jpeg",
+    fullName: "Piyush Kumar Mishra",
+    organisation: "IISc Bangalore, India",
+    profileImage: "/Piyush_kMishra.png",
   },
   {
     title: "Dr.",
