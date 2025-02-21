@@ -351,9 +351,9 @@ export const SponsorshipCoChair = [
   // },
   {
     title: "",
-    fullName: "Piyush Kumar Mishra",
-    organisation: "IISc Bangalore, India",
-    profileImage: "/Piyush_kMishra.png",
+    fullName: "Shashwat Pathak",
+    organisation: "CEO,AIC GNITS foundation",
+    profileImage: "/shashwat2.jpeg",
   },
   {
     title: "Prof.",
@@ -461,9 +461,9 @@ export const PublicChairs = [
 export const PublicityChairs = [
   {
     title: "Dr.",
-    fullName: "Shashwat Pathak",
-    organisation: "CEO,AIC GNITS Foundation",
-    profileImage: "/shashwat2.jpeg",
+    fullName: "Piyush Kumar Mishra",
+    organisation: "IISc Bangalore, India",
+    profileImage: "/Piyush_kMishra.png",
   },
   {
     title: "Dr.",
