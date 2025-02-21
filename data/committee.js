@@ -352,7 +352,7 @@ export const SponsorshipCoChair = [
   {
     title: "",
     fullName: "Shashwat Pathak",
-    organisation: "CEO,AIC GNITS foundation",
+    organisation: "CEO,AIC GNITS foundation, India",
     profileImage: "/shashwat2.jpeg",
   },
   {
