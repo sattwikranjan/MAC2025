@@ -969,6 +969,10 @@ export const committeeMembers = [
         organisation: "IIT Roorkee, India",
       },
       {
+        fullName: "Dr. Diptiranjan Samantaray",
+        organisation: "University of Delhi, India",
+      },
+      {
         fullName: "Dr. Niraj Pratap Singh",
         organisation: "NIT Kurukshetra, India",
       },
@@ -1244,10 +1248,10 @@ export const committeeMembers = [
       //   fullName: "Mr. Kumar Mohit",
       //   organisation: "MNNIT Allahabad, India",
       // },
-      {
-        fullName: "Dr. Dipti ranjan",
-        organisation: "Delhi university, South Campus",
-      },
+      // {
+      //   fullName: "Dr. Dipti ranjan",
+      //   organisation: "Delhi university, South Campus",
+      // },
       {
         fullName: "Dr. Indrasen Singh",
         organisation: "Vit Chennai, India",
