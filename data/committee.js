@@ -811,7 +811,7 @@ export const committeeMembers = [
       // },
       {
         fullName: "Dr. Dilip Kumar Kothari",
-        organisation: "Nirma University, Ahmedabad, India",
+        organisation: "Professor Emeritus, Ganpat University, India",
       },
       // {
       //   fullName: "Dr. Yatendra Kumar Singh",
