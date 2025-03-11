@@ -54,6 +54,12 @@ export const honChairs = [
     organisation: "University of California, Los Angeles",
     profileImage: "/asad.png",
   },
+  {
+    title: "Prof.",
+    fullName: "G. S. Tomar",
+    organisation: "Director, REC Sonbhadra, India",
+    profileImage: "/gstomar.png",
+  },
   // {
   //   title: "Prof.",
   //   fullName: "Sima Noghanian",
@@ -124,7 +130,13 @@ export const ProgramChair = [
     title: "Dr.",
     fullName: "Om Jee Pandey",
     organisation: "IIT BHU Varanasi, India",
-    profileImage: "/sonali.png",
+    profileImage: "/omjee.png",
+  },
+  {
+    title: "Dr.",
+    fullName: "R.N. Yadav ",
+    organisation: "MANIT Bhopal,India",
+    profileImage: "/rnyadav.png",
   },
   // {
   //   title: "Dr.",
@@ -212,7 +224,7 @@ export const IndustryInteractionChair = [
     title: "Dr.",
     fullName: "Vikrant Varshney",
     organisation: "Synopsys, Bengaluru, India",
-    profileImage: "/sonali.png",
+    profileImage: "/vikrantv.png",
   },
 ];
 
@@ -340,8 +352,20 @@ export const SponsorshipCoChair = [
   {
     title: "",
     fullName: "Shashwat Pathak",
-    organisation: "Atal Incubation Centre - GNITS,India",
+    organisation: "CEO,AIC GNITS foundation, India",
     profileImage: "/shashwat2.jpeg",
+  },
+  {
+    title: "Prof.",
+    fullName: "Karun Rawat",
+    organisation: "IIT Roorkee, India",
+    profileImage: "/karun.jpeg",
+  },
+  {
+    title: "Prof.",
+    fullName: "Ravi Kumar Gangwar",
+    organisation: "IIT(ISM) Dhanbad, India",
+    profileImage: "/ravikr1.png",
   },
 ];
 export const RegistrationCoChair = [
@@ -384,18 +408,6 @@ export const FinChairs = [
 ];
 
 export const OrgChair = [
-  {
-    title: "Prof.",
-    fullName: "G. S. Tomar",
-    organisation: "Director, REC Sonbhadra, India",
-    profileImage: "/gstomar.png",
-  },
-  {
-    title: "Dr.",
-    fullName: "R.N. Yadav ",
-    organisation: "MANIT Bhopal,India",
-    profileImage: "/rnyadav.png",
-  },
   // {
   //   title: "Prof.",
   //   fullName: "Yogesh Singh Chauhan",
@@ -415,7 +427,7 @@ export const TPC = [
     title: "Dr.",
     fullName: "Prashant Ranjan",
     organisation: "UEM Jaipur, India",
-    profileImage: "/sonali.png",
+    profileImage: "/prashant.png",
   },
   {
     title: "Dr.",
@@ -430,7 +442,7 @@ export const PublicChairs = [
     title: "Dr.",
     fullName: "Rajan Mishra",
     organisation: "MMMUT Gorakhpur, India",
-    profileImage: "/sonali.png",
+    profileImage: "/rajan.jpg",
   },
   // {
   //   title: "Dr.",
@@ -449,9 +461,21 @@ export const PublicChairs = [
 export const PublicityChairs = [
   {
     title: "Dr.",
-    fullName: "Shashwat Pathak",
-    organisation: "CEO,AIC GNITS Foundation",
-    profileImage: "/sonali.png",
+    fullName: "Piyush Kumar Mishra",
+    organisation: "IISc Bangalore, India",
+    profileImage: "/Piyush_kMishra.png",
+  },
+  {
+    title: "Dr.",
+    fullName: "Ravi Kumar Arya",
+    organisation: "ZICUST, China",
+    profileImage: "/raviarya.jpg",
+  },
+  {
+    title: "Dr.",
+    fullName: "Akhilesh Mohan",
+    organisation: "IIT Roorkee, India",
+    profileImage: "/akhilesh.png",
   },
 ];
 
@@ -787,7 +811,7 @@ export const committeeMembers = [
       // },
       {
         fullName: "Dr. Dilip Kumar Kothari",
-        organisation: "Nirma University, Ahmedabad, India",
+        organisation: "Professor Emeritus, Ganpat University, India",
       },
       // {
       //   fullName: "Dr. Yatendra Kumar Singh",
@@ -943,6 +967,10 @@ export const committeeMembers = [
       {
         fullName: "Dr. Akhilesh Mohan",
         organisation: "IIT Roorkee, India",
+      },
+      {
+        fullName: "Dr. Diptiranjan Samantaray",
+        organisation: "University of Delhi, India",
       },
       {
         fullName: "Dr. Niraj Pratap Singh",
@@ -1220,10 +1248,10 @@ export const committeeMembers = [
       //   fullName: "Mr. Kumar Mohit",
       //   organisation: "MNNIT Allahabad, India",
       // },
-      {
-        fullName: "Dr. Dipti ranjan",
-        organisation: "Delhi university, South Campus",
-      },
+      // {
+      //   fullName: "Dr. Dipti ranjan",
+      //   organisation: "Delhi university, South Campus",
+      // },
       {
         fullName: "Dr. Indrasen Singh",
         organisation: "Vit Chennai, India",
